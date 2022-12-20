@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+title: CASPR
+message: "Please use this information to cite CASPR in
+  research or other publications."
+authors:
+  - given-names: Pin-Jung
+    family-names: Chen
+    email: pinjung.chen@microsoft.com
+    affiliation: Microsoft Corporation
+  - given-names: Sahil
+    family-names: Bhatnagar
+    email: sahil.bhatnagar@microsoft.com
+    affiliation: Microsoft Corporation
+  - given-names: Damian Konrad
+    family-names: Kowalczyk
+    email: damian.kowalczyk@microsoft.com
+    affiliation: Microsoft Corporation
+  - given-names: Mayank
+    family-names: Shrivastava
+    email: mayank.shrivastava@microsoft.com
+    affiliation: Microsoft Corporation
+  - given-names: Sagar
+    family-names: Goyal
+    email: goyalsagar@outlook.com
+
+date-released: 2022-11-16
+repository-code: "https://github.com/microsoft/CASPR"
+license: "MIT"
+keywords:
+  - deep learning
+  - machine learning
+  - tabular data
+  
+version: 0.2.6
+doi: 10.48550/arXiv.2211.09174
+references:
+  - type: article
+    authors:
+      - given-names: Pin-Jung
+        family-names: Chen
+        email: pinjung.chen@microsoft.com
+        affiliation: Microsoft Corporation
+      - given-names: Sahil
+        family-names: Bhatnagar
+        email: sahil.bhatnagar@microsoft.com
+        affiliation: Microsoft Corporation
+      - given-names: Damian Konrad
+        family-names: Kowalczyk
+        email: damian.kowalczyk@microsoft.com
+        affiliation: Microsoft Corporation
+      - given-names: Mayank
+        family-names: Shrivastava
+        email: mayank.shrivastava@microsoft.com
+        affiliation: Microsoft Corporation
+      - given-names: Sagar
+        family-names: Goyal
+        email: goyalsagar@outlook.com
+    title: "CASPR: Customer Activity Sequence-based Prediction and Representation"
+    year: 2022
+    journal: ArXiv
+    doi: 10.48550/arXiv.2211.09174
+    url: https://arxiv.org/abs/2211.09174
+
+abstract: >-
+  Tasks critical to enterprise profitability, such as customer churn prediction, fraudulent account detection or customer lifetime value estimation, are often tackled by models trained on features engineered from customer data in tabular format. Application-specific feature engineering adds development, operationalization and maintenance costs over time. Recent advances in representation learning present an opportunity to simplify and generalize feature engineering across applications. When applying these advancements to tabular data researchers deal with data heterogeneity, variations in customer engagement history or the sheer volume of enterprise datasets. In this paper, we propose a novel approach to encode tabular data containing customer transactions, purchase history and other interactions into a generic representation of a customer's association with the business. We then evaluate these embeddings as features to train multiple models spanning a variety of applications. CASPR, Customer Activity Sequence-based Prediction and Representation, applies Transformer architecture to encode activity sequences to improve model performance and avoid bespoke feature engineering across applications. Our experiments at scale validate CASPR for both small and large enterprise applications.
