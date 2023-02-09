@@ -12,7 +12,7 @@ azureml-logs
 .azureml
 outputs
 azureml-setup
-docs
+*:Zone.Identifier*
 
 # VSCode stuff
 **/*.prefs

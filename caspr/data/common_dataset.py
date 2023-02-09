@@ -4,8 +4,6 @@ import pandas as pd
 import torch
 from torch.utils.data.dataloader import default_collate
 
-# Dataset Class is almost general
-
 
 class CommonDataset(torch.utils.data.Dataset):
     def __init__(self, df, seq_cols, non_seq_cols, output_col, cat_cols, cont_cols, time_steps, tgt_id=[]):
